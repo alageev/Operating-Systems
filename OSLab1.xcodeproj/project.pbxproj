@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F1AA2D6252F2674007F62E2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F1AA2D5252F2674007F62E2 /* main.c */; };
+		6F1AA2D6252F2674007F62E2 /* Lab1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6F1AA2D5252F2674007F62E2 /* Lab1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		6F1AA2D2252F2674007F62E2 /* OSLab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OSLab1; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F1AA2D5252F2674007F62E2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6F1AA2D5252F2674007F62E2 /* Lab1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Lab1.c; sourceTree = "<group>"; };
+		6F685B6B258034E200E66B26 /* system tap script.stp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "system tap script.stp"; sourceTree = "<group>"; };
+		6FD04A62257936B500ACC619 /* pmap.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = pmap.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		6F1AA2D4252F2674007F62E2 /* OSLab1 */ = {
 			isa = PBXGroup;
 			children = (
-				6F1AA2D5252F2674007F62E2 /* main.c */,
+				6F1AA2D5252F2674007F62E2 /* Lab1.c */,
+				6FD04A62257936B500ACC619 /* pmap.txt */,
+				6F685B6B258034E200E66B26 /* system tap script.stp */,
 			);
 			path = OSLab1;
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F1AA2D6252F2674007F62E2 /* main.c in Sources */,
+				6F1AA2D6252F2674007F62E2 /* Lab1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
